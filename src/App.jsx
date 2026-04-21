@@ -445,7 +445,7 @@ const HomePage = ({navigate, addToCart, goShopCat}) => {
               <button className="btn-ghost" onClick={() => navigate("about")}>Learn About Us</button>
             </div>
             <div className="h-stats">
-              {[["5,000+","Happy Customers"],["1,200+","Products Available"],["100%","Authentic Medications"],["2-3","Days Delivery"]].map(([n,l]) => (
+              {[["5,000+","Happy Customers"],["1,200+","Products Available"],["100%","Authentic Medications"],["1-3","Days Delivery"]].map(([n,l]) => (
                 <div key={l}><div className="hs-num">{n}</div><div className="hs-lbl">{l}</div></div>
               ))}
             </div>
