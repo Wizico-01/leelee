@@ -461,7 +461,7 @@ const HomePage = ({navigate, addToCart, goShopCat}) => {
         </div>
       </section>
       <div className="tbar">
-        {[["🚚","Free delivery above ₦10,000"],["✅","100% authentic products"],["💊","Licensed pharmacy"],["🔒","Secure checkout"],["📞","24/7 support"]].map(([i,t]) => (
+        {[["✅","100% authentic products"],["💊","Licensed pharmacy"],["🔒","Secure checkout"],["📞","24/7 support"]].map(([i,t]) => (
           <div className="ti" key={t}><span>{i}</span><span>{t}</span></div>
         ))}
       </div>
